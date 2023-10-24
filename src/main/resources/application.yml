@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 10.20.2.224:8848
+  config:
+    import:
+      - optional:nacos:wang.yml
